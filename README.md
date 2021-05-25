@@ -1,11 +1,9 @@
 # REST-API_CSV_PARSER
 An express/node js app
 
-# ![Node/Express/Mongoose Example App](project-logo.png)
 
-[![Build Status](https://travis-ci.org/anishkny/node-express-realworld-example-app.svg?branch=master)](https://travis-ci.org/anishkny/node-express-realworld-example-app)
 
-> ### Example Node (Express + Mongoose) codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) API spec.
+> ### Example Node (Express + Mongoose) codebase containing real world examples (CRUD, auth)
 
 <a href="https://thinkster.io/tutorials/node-json-api" target="_blank"><img width="454" src="https://raw.githubusercontent.com/gothinkster/realworld/master/media/learn-btn-hr.png" /></a>
 
@@ -33,6 +31,7 @@ To get the Node server running locally:
 ## Application Structure
 
 - `index.js` - The entry point to our application. This file defines our express server and connects it to MongoDB using mongoose. It also requires the routes and models we'll be using in the application.
+- `controller/` - defination of all the routes
 - `routes/` - This folder contains the route definitions for our API.
 - `models/` - This folder contains the schema definitions for our Mongoose models.
 
